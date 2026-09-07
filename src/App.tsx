@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import removeBackground from '@imgly/background-removal';
+import { removeBackground } from '@imgly/background-removal';
 
 type Screen = 'camera' | 'preview' | 'library';
 type StyleMode = 'glossy' | 'y2k' | 'minimal';
