@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EmojiFest - Y2K Emoji Generator</title>
+    <!-- Polyfill global process object required by Node packages in Vite production builds -->
+    <script>
+      window.process = { env: { NODE_ENV: 'production' } };
+    </script>
   </head>
   <body>
     <div id="root"></div>
