@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { removeBackground } from '@imgly/background-removal';
 
 type Screen = 'camera' | 'preview' | 'library';
